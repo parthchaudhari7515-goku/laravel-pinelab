@@ -1,0 +1,14 @@
+{
+  "name": "vendor/laravel-pinelab",
+  "description": "Laravel package for Pinelab payment gateway integration",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {"psr-4": {"Vendor\\Pinelab\\": "src/"}},
+  "extra": {
+    "laravel": {
+      "providers": ["Vendor\\Pinelab\\PinelabServiceProvider"],
+      "aliases": {"Pinelab": "Vendor\\Pinelab\\Facades\\Pinelab"}
+    }
+  },
+  "require": {"php": "^8.0","illuminate/support": "^9.0|^10.0"}
+}
