@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\Pinelab;
+namespace Parth\Pinelab;
 use Illuminate\Support\ServiceProvider;
 use Parth\Pinelab\Services\GatewayService;
 
