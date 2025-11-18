@@ -1,7 +1,7 @@
 <?php
 namespace Vendor\Pinelab;
 use Illuminate\Support\ServiceProvider;
-use Vendor\Pinelab\Services\GatewayService;
+use Parth\Pinelab\Services\GatewayService;
 
 class PinelabServiceProvider extends ServiceProvider {
     public function boot() {

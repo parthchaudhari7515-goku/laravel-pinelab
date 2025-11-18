@@ -1,8 +1,8 @@
 <?php
-namespace Vendor\Pinelab\Http;
+namespace Parth\Pinelab\Http;
 
 use GuzzleHttp\Client as Guzzle;
-use Vendor\Pinelab\Exceptions\PinelabException;
+use Parth\Pinelab\Exceptions\PinelabException;
 
 class Client {
     protected $guzzle;

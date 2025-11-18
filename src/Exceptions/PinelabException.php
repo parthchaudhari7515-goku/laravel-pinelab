@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\Pinelab\Exceptions;
+namespace Parth\Pinelab\Exceptions;
 use Exception;
 
 class PinelabException extends Exception {}

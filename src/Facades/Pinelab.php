@@ -1,9 +1,9 @@
 <?php
-namespace Vendor\Pinelab\Facades;
+namespace Parth\Pinelab\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class Pinelab extends Facade {
     protected static function getFacadeAccessor() {
-        return \Vendor\Pinelab\Services\GatewayService::class;
+        return \Parth\Pinelab\Services\GatewayService::class;
     }
 }

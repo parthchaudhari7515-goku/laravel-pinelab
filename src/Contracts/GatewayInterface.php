@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\Pinelab\Contracts;
+namespace Parth\Pinelab\Contracts;
 
 interface GatewayInterface {
     public function createPayment(array $data): array;

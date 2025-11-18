@@ -1,9 +1,9 @@
 <?php
-namespace Vendor\Pinelab\Services;
+namespace Parth\Pinelab\Services;
 
-use Vendor\Pinelab\Contracts\GatewayInterface;
-use Vendor\Pinelab\Http\Client;
-use Vendor\Pinelab\Exceptions\PinelabException;
+use Parth\Pinelab\Contracts\GatewayInterface;
+use Parth\Pinelab\Http\Client;
+use Parth\Pinelab\Exceptions\PinelabException;
 
 class GatewayService implements GatewayInterface {
     protected $http;
